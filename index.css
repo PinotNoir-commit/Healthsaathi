@@ -1,0 +1,467 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+.health-tracker-child {
+  position: absolute;
+  top: 20px;
+  left: 172px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  width: 1249px;
+  height: 982px;
+}
+.health-tracker-item {
+  position: absolute;
+  top: 45px;
+  left: 192px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-beige);
+  width: 1196px;
+  height: 82px;
+}
+.saathi {
+  color: var(--color-yellow);
+}
+.healthsaathi {
+  margin: 0;
+  position: absolute;
+  top: 55px;
+  left: 216px;
+  font-size: var(--font-size-4xl);
+  font-family: var(--font-anton);
+  display: inline-block;
+  width: 214px;
+  height: 58px;
+}
+.dashboard,
+.health-tracker-inner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: absolute;
+}
+.health-tracker-inner {
+  background-color: var(--color-gray-200);
+  top: 58px;
+  left: 475px;
+  border-radius: var(--br-xs);
+  width: 165px;
+  height: 53px;
+  opacity: 0;
+}
+.health-tracker-inner.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.dashboard {
+  background-color: transparent;
+  top: 72px;
+  left: 486px;
+  font-size: var(--font-size-2xl);
+  font-family: var(--font-josefin-sans);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.hi-rohan {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.health {
+  margin: 0;
+}
+.categories,
+.hi-rohan-check-container,
+.medication,
+.status {
+  position: absolute;
+  top: 158px;
+  left: 216px;
+  font-size: var(--font-size-4xl);
+  font-family: var(--font-josefin-sans);
+}
+.categories,
+.medication,
+.status {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 72px;
+  left: 675px;
+  font-size: var(--font-size-2xl);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.medication,
+.status {
+  left: 848px;
+}
+.status {
+  left: 1027px;
+}
+.health-tracker-child1,
+.rectangle-div {
+  position: absolute;
+  top: 309px;
+  left: 192px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  width: 243px;
+  height: 243px;
+}
+.health-tracker-child1 {
+  left: 449px;
+}
+.health-tracker-child2,
+.health-tracker-child3 {
+  position: absolute;
+  border-radius: var(--br-lg);
+  box-sizing: border-box;
+  width: 243px;
+}
+.health-tracker-child2 {
+  top: 145px;
+  left: 726px;
+  background-color: #ffe0e0;
+  border: 4px solid var(--color-red);
+  height: 198px;
+}
+.health-tracker-child3 {
+  top: 358px;
+  left: 723px;
+  background-color: #c6deff;
+  border: 4px solid #2839d8;
+  height: 194px;
+}
+.health-tracker-child4,
+.health-tracker-child5,
+.health-tracker-child6 {
+  position: absolute;
+  top: 145px;
+  left: 997px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  width: 406px;
+  height: 407px;
+}
+.health-tracker-child5,
+.health-tracker-child6 {
+  top: 570px;
+  left: 195px;
+  width: 497px;
+  height: 414px;
+}
+.health-tracker-child6 {
+  left: 707px;
+  width: 696px;
+}
+.health-tracker-child7,
+.health-tracker-child8,
+.rectangle-button,
+.rectangle-nav {
+  position: absolute;
+  top: 696px;
+  left: 768px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-gray-100);
+  width: 607px;
+  height: 96px;
+}
+.health-tracker-child7,
+.health-tracker-child8,
+.rectangle-button {
+  top: 860px;
+  left: 760px;
+  width: 615px;
+}
+.health-tracker-child8,
+.rectangle-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-black);
+  top: 292px;
+  left: 774px;
+  width: 147px;
+  height: 42px;
+}
+.health-tracker-child8 {
+  top: 504px;
+}
+.cardio,
+.haemoglobin,
+.yoga {
+  position: absolute;
+  top: 507px;
+  left: 241px;
+  font-weight: 700;
+}
+.cardio,
+.yoga {
+  top: 182px;
+  left: 805px;
+  font-size: var(--font-size-3xl);
+}
+.cardio {
+  top: 398px;
+  left: 797px;
+}
+.calendar,
+.informations,
+.weekly-walking-footsteps {
+  position: absolute;
+  top: 610px;
+  left: 244px;
+  font-weight: 700;
+}
+.calendar,
+.informations {
+  left: 748px;
+}
+.calendar {
+  top: 171px;
+  left: 1047px;
+}
+.details {
+  top: 665px;
+  left: 770px;
+  font-size: var(--font-inherit);
+  font-family: var(--font-inherit);
+}
+.details,
+.doctors,
+.o {
+  position: absolute;
+  font-weight: 700;
+}
+.doctors {
+  top: 825px;
+  left: 770px;
+  font-size: var(--font-inherit);
+  font-family: var(--font-inherit);
+}
+.o {
+  top: 748px;
+  left: 858px;
+}
+.cm1 {
+  color: var(--color-gray-400);
+}
+.blood,
+.cm,
+.height,
+.kg,
+.weight {
+  position: absolute;
+  top: 748px;
+  left: 1022px;
+  font-weight: 700;
+}
+.blood,
+.height,
+.kg,
+.weight {
+  left: 1215px;
+}
+.blood,
+.height,
+.weight {
+  top: 713px;
+  left: 835px;
+  color: var(--color-gray-400);
+}
+.height,
+.weight {
+  left: 1014px;
+}
+.weight {
+  left: 1198px;
+}
+.gdl {
+  top: 365px;
+  left: 332px;
+  color: var(--color-beige);
+}
+.div,
+.div1,
+.gdl,
+.mmhg {
+  position: absolute;
+  font-weight: 700;
+}
+.mmhg {
+  top: 365px;
+  left: 570px;
+  color: var(--color-beige);
+}
+.div,
+.div1 {
+  top: 349px;
+  left: 488px;
+  font-size: var(--font-size-5xl);
+}
+.div1 {
+  left: 242px;
+}
+.blood-pressure,
+.try-it-now,
+.try-it-now1 {
+  position: absolute;
+  top: 507px;
+  left: 490px;
+  font-weight: 700;
+}
+.try-it-now,
+.try-it-now1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 304px;
+  left: 802px;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-league-spartan);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.try-it-now1 {
+  top: 516px;
+}
+.minutes {
+  margin-bottom: 0;
+}
+.minutes-430-kcalhr {
+  margin: 0;
+  padding-left: var(--padding-md);
+}
+.minutes-430-kcalhr-container,
+.minutes-430-kcalhr-container1 {
+  position: absolute;
+  top: 231px;
+  left: 754px;
+  font-size: var(--font-inherit);
+  font-weight: 700;
+  font-family: var(--font-inherit);
+}
+.minutes-430-kcalhr-container1 {
+  top: 447px;
+}
+.ellipse-icon {
+  position: absolute;
+  top: 866px;
+  left: 768px;
+  width: 83px;
+  height: 83px;
+  object-fit: cover;
+}
+.health-tracker-child10,
+.health-tracker-child11,
+.health-tracker-child9 {
+  position: absolute;
+  top: 866px;
+  left: 1021px;
+  width: 83px;
+  height: 83px;
+  object-fit: cover;
+}
+.health-tracker-child10,
+.health-tracker-child11 {
+  left: 1194px;
+}
+.health-tracker-child11 {
+  left: 1284px;
+}
+.group-child,
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 76px;
+  height: 76px;
+}
+.group-item {
+  top: 10px;
+  left: 10px;
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+}
+.ellipse-container,
+.ellipse-group,
+.ellipse-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 870px;
+  left: 855px;
+  width: 76px;
+  height: 76px;
+}
+.ellipse-container,
+.ellipse-group {
+  left: 938px;
+}
+.ellipse-container {
+  left: 1111px;
+}
+.health-tracker-child13,
+.health-tracker-child14,
+.health-tracker-child15,
+.health-tracker-child16 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 423px;
+  left: 53px;
+  width: 72px;
+  height: 65px;
+  background-image: url(./public/rectangle15@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.health-tracker-child14,
+.health-tracker-child15,
+.health-tracker-child16 {
+  top: 556px;
+  background-image: url(./public/rectangle16@3x.png);
+}
+.health-tracker-child15,
+.health-tracker-child16 {
+  top: 688px;
+  background-image: url(./public/rectangle17@3x.png);
+}
+.health-tracker-child16 {
+  top: 815px;
+  background-image: url(./public/rectangle18@3x.png);
+}
+.health-tracker {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-league-spartan);
+}
+#gcalnd {
+  padding-left: 2em;
+  padding-top: 3em;
+}

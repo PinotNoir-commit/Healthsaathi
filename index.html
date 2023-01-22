@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./index.css" />
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin Sans:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League Spartan:wght@700&display=swap" />
+</head>
+
+<body>
+  <div class="health-tracker" id="Dashboard">
+    <div class="health-tracker-child"></div>
+    <header class="health-tracker-item"></header>
+    <p class="healthsaathi">
+      <span>HEALTH</span><span class="saathi">SAATHI</span>
+    </p>
+    <button class="health-tracker-inner" data-animate-on-scroll></button><button class="dashboard"
+      autofocus>Dashboard</button>
+    <div class="hi-rohan-check-container">
+      <p class="hi-rohan">Hi Rohan,</p>
+      <p class="hi-rohan">Check your</p>
+      <p class="health">Health!</p>
+    </div>
+    <button class="categories" id="categories" href="./categories.html">Categories</button><button class="medication"
+      id="medication" href="./medication.html">Medication</button><button class=" status">Status</button>
+    <div class="rectangle-div"></div>
+    <div class="health-tracker-child1"></div>"
+    <div class="health-tracker-child2"></div>
+    <div class="health-tracker-child3"></div>
+    <div class="health-tracker-child4">
+      <iframe id="gcalnd" src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FKolkata&title=%20&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&showTz=0" style="border:none" width="300" height="300" frameborder="0" scrolling="no"></iframe></div>
+    <div class="health-tracker-child5"></div>
+    <div class="health-tracker-child6"></div>
+    <nav class="rectangle-nav"></nav>
+    <nav class="health-tracker-child7"></nav>
+    <button class="rectangle-button" id="rectangleButton1"></button><button class="health-tracker-child8"
+      id="rectangleButton2"></button>
+    <div class="haemoglobin">Haemoglobin</div>
+    <div class="yoga">Yoga</div>
+    <div class="cardio">Cardio</div>
+    <div class="weekly-walking-footsteps">Weekly Walking Footsteps</div>
+    <div class="informations">Informations</div>
+    <div class="calendar">Calendar</div>
+    <div class="details">
+      <ul class="minutes-430-kcalhr">
+        Details
+      </ul>
+    </div>
+    <div class="doctors">
+      <ul class="minutes-430-kcalhr">
+        Doctors
+      </ul>
+    </div>
+    <div class="o">O+</div>
+    <div class="cm"><span>170</span><span class="cm1">cm</span></div>
+    <div class="kg"><span>80</span><span class="cm1">kg</span></div>
+    <div class="blood">BLOOD</div>
+    <div class="height">HEIGHT</div>
+    <div class="weight">WEIGHT</div>
+    <div class="gdl">g/dl</div>
+    <div class="mmhg">80mmHg</div>
+    <div class="div">100</div>
+    <div class="div1">16.7</div>
+    <div class="blood-pressure">Blood Pressure</div>
+    <button class="try-it-now" id="tryItNow">Try It Now</button><button class="try-it-now1" id="tryItNow1">Try It
+      Now</button>
+    <div class="minutes-430-kcalhr-container">
+      <ul class="minutes-430-kcalhr">
+        <li class="minutes">60 minutes</li>
+        <li>430 Kcal/hr</li>
+      </ul>
+    </div>
+    <div class="minutes-430-kcalhr-container1">
+      <ul class="minutes-430-kcalhr">
+        <li class="minutes">60 minutes</li>
+        <li>430 Kcal/hr</li>
+      </ul>
+    </div>
+    <img class="ellipse-icon" alt="" src="public/ellipse-1@2x.png" /><img class="health-tracker-child9" alt=""
+      src="public/ellipse-1@2x.png" /><img class="health-tracker-child10" alt="" src="public/ellipse-1@2x.png" /><img
+      class="health-tracker-child11" alt="" src="public/ellipse-1@2x.png" /><img class="health-tracker-child10" alt=""
+      src="public/ellipse-1@2x.png" /><button class="ellipse-parent">
+      <img class="group-child" alt="" src="public/ellipse-31.svg" /><img class="group-item" alt=""
+        src="public/ellipse-21@2x.png" /></button><button class="ellipse-group">
+      <img class="group-child" alt="" src="public/ellipse-31.svg" /><img class="group-item" alt=""
+        src="public/ellipse-21@2x.png" /></button><button class="ellipse-container">
+      <img class="group-child" alt="" src="public/ellipse-31.svg" /><img class="group-item" alt=""
+        src="public/ellipse-21@2x.png" /></button>
+      <button class="health-tracker-child13"><img width="75rem" height="75rem" src="home-7-256.png"></button>
+    <button onclick="location.href='chatbot.html'" type="button" class="health-tracker-child14"><img width="75rem" height="75rem" src="icons8-chatbot-58.png"></button><button class="health-tracker-child15"><img width="75rem" height="75rem" src="settings-256.png"></button><button
+      class="health-tracker-child16"><img width="75rem" height="75rem" src="help-256.png"></button>
+  </div>
+
+  <script>
+    var categories = document.getElementById("categories");
+    if (categories) {
+      categories.addEventListener("click", function (e) {
+        window.location.href = "./categories.html";
+      });
+    }
+
+    var medication = document.getElementById("medication");
+    if (medication) {
+      medication.addEventListener("click", function (e) {
+        window.location.href = "./mediction.html";
+      });
+    }
+
+    var rectangleButton1 = document.getElementById("rectangleButton1");
+    if (rectangleButton1) {
+      rectangleButton1.addEventListener("click", function () {
+        window.open("https://vclock.com/set-timer-for-60-minutes/");
+      });
+    }
+
+    var rectangleButton2 = document.getElementById("rectangleButton2");
+    if (rectangleButton2) {
+      rectangleButton2.addEventListener("click", function () {
+        window.open("https://vclock.com/set-timer-for-60-minutes/");
+      });
+    }
+
+    var tryItNow = document.getElementById("tryItNow");
+    if (tryItNow) {
+      tryItNow.addEventListener("click", function () {
+        window.open("https://vclock.com/set-timer-for-60-minutes/");
+      });
+    }
+
+    var tryItNow1 = document.getElementById("tryItNow1");
+    if (tryItNow1) {
+      tryItNow1.addEventListener("click", function () {
+        window.open("https://vclock.com/set-timer-for-60-minutes/");
+      });
+    }
+    var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+    var observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting || entry.intersectionRatio > 0) {
+            const targetElement = entry.target;
+            targetElement.classList.add("animate");
+            observer.unobserve(targetElement);
+          }
+        }
+      },
+      {
+        threshold: 0.15,
+      }
+    );
+
+    for (let i = 0; i < scrollAnimElements.length; i++) {
+      observer.observe(scrollAnimElements[i]);
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+:root {
+  /* fonts */
+  --font-league-spartan: "League Spartan";
+  --font-inherit: inherit;
+  --font-josefin-sans: "Josefin Sans";
+  --font-anton: Anton;
+
+  /* font sizes */
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-lg: 20px;
+  --font-size-xl: 25.01px;
+  --font-size-2xl: 28.34px;
+  --font-size-3xl: 36px;
+  --font-size-4xl: 40px;
+  --font-size-5xl: 48px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-beige: #c5c5c3;
+  --color-gray-100: #f1f1f1;
+  --color-gray-200: #d9d9d9;
+  --color-gray-300: #969696;
+  --color-gray-400: #909591;
+  --color-red: #ff0000;
+  --color-yellow: #f9ef23;
+
+  /* Paddings */
+  --padding-md: 33px;
+
+  /* border radiuses */
+  --br-xs: 20px;
+  --br-sm: 30px;
+  --br-md: 46px;
+  --br-lg: 50px;
+}

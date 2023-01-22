@@ -1,0 +1,469 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+.mediction-child,
+.mediction-item {
+  position: absolute;
+  top: 20px;
+  left: 172px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  width: 1249px;
+  height: 982px;
+}
+.mediction-item {
+  top: 45px;
+  left: 192px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-beige);
+  width: 1196px;
+  height: 82px;
+}
+.saathi2 {
+  color: var(--color-yellow);
+}
+.healthsaathi2 {
+  margin: 0;
+  position: absolute;
+  top: 55px;
+  left: 216px;
+  font-size: var(--font-size-4xl);
+  font-family: var(--font-anton);
+  display: inline-block;
+  width: 214px;
+  height: 58px;
+}
+.mediction-inner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-200);
+  position: absolute;
+  top: 58px;
+  left: 838px;
+  border-radius: var(--br-xs);
+  width: 165px;
+  height: 53px;
+  opacity: 0;
+}
+.mediction-inner.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.categories3,
+.dashboard2,
+.medication2,
+.status2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 72px;
+  left: 486px;
+  font-size: var(--font-size-2xl);
+  font-family: var(--font-josefin-sans);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.categories3,
+.medication2,
+.status2 {
+  left: 675px;
+}
+.medication2,
+.status2 {
+  left: 848px;
+}
+.status2 {
+  left: 1027px;
+}
+.mediction-child1,
+.mediction-child2,
+.mediction-child3 {
+  position: absolute;
+  top: 292px;
+  left: 193px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  width: 696px;
+  height: 690px;
+}
+.mediction-child2,
+.mediction-child3 {
+  top: 520px;
+  left: 907px;
+  width: 500px;
+  height: 465px;
+}
+.mediction-child3 {
+  top: 292px;
+  height: 218px;
+}
+.mediction-child4,
+.mediction-child5,
+.mediction-child6,
+.mediction-child7 {
+  position: absolute;
+  top: 400px;
+  left: 253px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-gray-100);
+  width: 607px;
+  height: 96px;
+}
+.mediction-child5,
+.mediction-child6,
+.mediction-child7 {
+  top: 574px;
+  left: 255px;
+}
+.mediction-child6,
+.mediction-child7 {
+  top: 379px;
+  left: 928px;
+  width: 463px;
+}
+.mediction-child7 {
+  top: 760px;
+  left: 255px;
+  width: 607px;
+}
+.consult-with-a,
+.informations1,
+.nearby-doctors {
+  position: absolute;
+  top: 314px;
+  left: 233px;
+  font-weight: 700;
+}
+.consult-with-a,
+.nearby-doctors {
+  top: 546px;
+  left: 957px;
+}
+.consult-with-a {
+  top: 321px;
+}
+.details3 {
+  margin: 0;
+  padding-left: var(--padding-md);
+}
+.details2 {
+  top: 369px;
+  left: 255px;
+  font-size: var(--font-inherit);
+  font-family: var(--font-inherit);
+}
+.details2,
+.doctors2,
+.o1 {
+  position: absolute;
+  font-weight: 700;
+}
+.doctors2 {
+  top: 529px;
+  left: 255px;
+  font-size: var(--font-inherit);
+  font-family: var(--font-inherit);
+}
+.o1 {
+  top: 452px;
+  left: 343px;
+}
+.dr-akhilesh-sahoo {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.cardiologist {
+  margin: 0;
+}
+.connect-with-a,
+.dr-akhilesh-sahoo-container,
+.rohan-dasgupta {
+  position: absolute;
+  top: 599px;
+  left: 375px;
+  font-weight: 700;
+}
+.connect-with-a,
+.rohan-dasgupta {
+  top: 403px;
+  left: 1075px;
+  display: inline-block;
+  width: 238px;
+}
+.rohan-dasgupta {
+  top: 162px;
+  left: 233px;
+  font-size: var(--font-size-5xl);
+  width: 540px;
+  height: 134px;
+}
+.dr-madhab-pradhan-container {
+  position: absolute;
+  top: 697px;
+  left: 376px;
+  font-weight: 700;
+}
+.dr-shyamal-jha-container,
+.dr-tanmay-jana-container {
+  position: absolute;
+  top: 789px;
+  left: 376px;
+  font-weight: 700;
+}
+.dr-tanmay-jana-container {
+  top: 878px;
+}
+.cm3 {
+  color: var(--color-gray-400);
+}
+.cm2 {
+  position: absolute;
+  top: 452px;
+  left: 507px;
+  font-weight: 700;
+}
+.group-child4,
+.group-child5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 74px;
+  height: 74px;
+}
+.group-child5 {
+  top: 10px;
+  left: 10px;
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+.group-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 587px;
+  left: 774px;
+  width: 74px;
+  height: 74px;
+}
+.group-child6,
+.group-child7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 77px;
+  height: 77px;
+}
+.group-child7 {
+  top: 11px;
+  left: 10px;
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+.ellipse-parent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 675px;
+  left: 774px;
+  width: 77px;
+  height: 77px;
+}
+.group-child9 {
+  position: absolute;
+  top: 12px;
+  left: 11px;
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+.ellipse-parent2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 388px;
+  left: 1298px;
+  width: 77px;
+  height: 77px;
+}
+.group-child11 {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+.ellipse-parent3,
+.ellipse-parent4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 770px;
+  left: 774px;
+  width: 77px;
+  height: 77px;
+}
+.ellipse-parent4 {
+  top: 874px;
+}
+.age-46-container,
+.blood1,
+.kg2 {
+  position: absolute;
+  top: 452px;
+  left: 700px;
+  font-weight: 700;
+}
+.age-46-container,
+.blood1 {
+  top: 417px;
+  left: 320px;
+  color: var(--color-gray-400);
+}
+.age-46-container {
+  top: 211px;
+  left: 235px;
+  font-size: 24px;
+  color: var(--color-gray-300);
+}
+.height1,
+.weight1 {
+  position: absolute;
+  top: 417px;
+  left: 499px;
+  font-weight: 700;
+  color: var(--color-gray-400);
+}
+.weight1 {
+  left: 683px;
+}
+.group-child14,
+.group-child15 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 76px;
+  height: 76px;
+}
+.group-child15 {
+  top: 10px;
+  left: 10px;
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+}
+.ellipse-parent5,
+.ellipse-parent6,
+.ellipse-parent7 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 583px;
+  left: 267px;
+  width: 76px;
+  height: 76px;
+}
+.ellipse-parent6,
+.ellipse-parent7 {
+  top: 388px;
+  left: 940px;
+}
+.ellipse-parent7 {
+  top: 678px;
+  left: 265px;
+}
+.ellipse-parent8,
+.ellipse-parent9,
+.mediction-child10,
+.mediction-child11,
+.mediction-child8,
+.mediction-child9 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 864px;
+  left: 267px;
+  width: 76px;
+  height: 76px;
+}
+.ellipse-parent9,
+.mediction-child10,
+.mediction-child11,
+.mediction-child8,
+.mediction-child9 {
+  top: 770px;
+}
+.mediction-child10,
+.mediction-child11,
+.mediction-child8,
+.mediction-child9 {
+  top: 423px;
+  left: 53px;
+  width: 72px;
+  height: 65px;
+  background-image: url(./public/rectangle15@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.mediction-child10,
+.mediction-child11,
+.mediction-child9 {
+  top: 556px;
+  background-image: url(./public/rectangle16@3x.png);
+}
+.mediction-child10,
+.mediction-child11 {
+  top: 688px;
+  background-image: url(./public/rectangle17@3x.png);
+}
+.mediction-child11 {
+  top: 815px;
+  background-image: url(./public/rectangle18@3x.png);
+}
+.ellipse-iframe {
+  border: 0;
+  position: absolute;
+  top: 606px;
+  left: 990px;
+  background-color: var(--color-gray-200);
+  width: 334px;
+  height: 334px;
+}
+.mediction {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-league-spartan);
+}

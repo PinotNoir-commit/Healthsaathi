@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.chatbot-child {
+  position: absolute;
+  top: 20px;
+  left: 172px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  width: 1249px;
+  height: 982px;
+}
+.chatbot-child1,
+.chatbot-child2,
+.chatbot-inner,
+.chatbot-item {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 423px;
+  left: 53px;
+  width: 72px;
+  height: 65px;
+  background-image: url(./public/rectangle153@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.chatbot-child1,
+.chatbot-child2,
+.chatbot-inner {
+  top: 556px;
+  background-image: url(./public/rectangle163@3x.png);
+}
+.chatbot-child1,
+.chatbot-child2 {
+  top: 688px;
+  background-image: url(./public/rectangle17@3x.png);
+}
+.chatbot-child2 {
+  top: 815px;
+  background-image: url(./public/rectangle18@3x.png);
+}
+.chatbot {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+}
+#ebot {
+    padding-left: 85px;
+    padding-top: 43px;
+}

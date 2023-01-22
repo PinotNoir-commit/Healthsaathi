@@ -1,0 +1,499 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes shadow-inset-center {
+  0% {
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: inset 0 0 14px 0 rgb(0 0 0/50%);
+  }
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+.categories-child,
+.categories-item {
+  position: absolute;
+  top: 20px;
+  left: 172px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  width: 1249px;
+  height: 982px;
+}
+.categories-item {
+  top: 45px;
+  left: 192px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-beige);
+  width: 1196px;
+  height: 82px;
+}
+.saathi1 {
+  color: var(--color-yellow);
+}
+.healthsaathi1 {
+  margin: 0;
+  position: absolute;
+  top: 55px;
+  left: 216px;
+  font-size: var(--font-size-4xl);
+  font-family: var(--font-anton);
+  display: inline-block;
+  width: 214px;
+  height: 58px;
+}
+.categories-inner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-200);
+  position: absolute;
+  top: 58px;
+  left: 662px;
+  border-radius: var(--br-xs);
+  width: 165px;
+  height: 53px;
+  opacity: 0;
+}
+.categories-inner.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.categories2,
+.dashboard1,
+.medication1,
+.status1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 72px;
+  left: 486px;
+  font-size: var(--font-size-2xl);
+  font-family: var(--font-josefin-sans);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.categories2,
+.medication1,
+.status1 {
+  left: 675px;
+}
+.medication1,
+.status1 {
+  left: 848px;
+}
+.status1 {
+  left: 1027px;
+}
+.rectangle-a {
+  text-decoration: none;
+  top: 147px;
+  left: 201px;
+  width: 224px;
+  height: 218px;
+}
+.rectangle-a:hover {
+  animation: 1s ease 0s 1 normal forwards shadow-inset-center;
+  opacity: 1;
+}
+.categories-child1,
+.categories-child2,
+.rectangle-a {
+  position: absolute;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+}
+.categories-child1 {
+  text-decoration: none;
+  top: 385px;
+  left: 201px;
+  width: 224px;
+  height: 218px;
+}
+.categories-child1:hover {
+  animation: 1s ease-out 0s 1 normal forwards shadow-inset-center;
+  opacity: 1;
+}
+.categories-child2 {
+  top: 147px;
+  left: 444px;
+}
+.categories-child2:hover,
+.categories-child3:hover,
+.categories-child4:hover {
+  animation: 1s ease 0s 1 normal forwards shadow-inset-center;
+  opacity: 1;
+}
+.categories-child2,
+.categories-child3,
+.categories-child4 {
+  text-decoration: none;
+  width: 224px;
+  height: 218px;
+}
+.categories-child3 {
+  position: absolute;
+  top: 385px;
+  left: 444px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+}
+.categories-child4 {
+  top: 147px;
+  left: 686px;
+}
+.categories-child4,
+.categories-child5,
+.categories-child6 {
+  position: absolute;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+}
+.categories-child5 {
+  text-decoration: none;
+  top: 385px;
+  left: 686px;
+  width: 224px;
+  height: 218px;
+}
+.categories-child5:hover {
+  animation: 1s ease 0s infinite normal none shadow-inset-center;
+  opacity: 1;
+}
+.categories-child6 {
+  top: 147px;
+  left: 925px;
+}
+.categories-child6:hover,
+.categories-child7:hover,
+.categories-child8:hover,
+.categories-child9:hover {
+  animation: 1s ease 0s 1 normal forwards shadow-inset-center;
+  opacity: 1;
+}
+.categories-child6,
+.categories-child7,
+.categories-child8 {
+  text-decoration: none;
+  width: 224px;
+  height: 218px;
+}
+.categories-child7 {
+  position: absolute;
+  top: 385px;
+  left: 925px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+}
+.categories-child8 {
+  top: 147px;
+  left: 1167px;
+}
+.categories-child10,
+.categories-child8,
+.categories-child9 {
+  position: absolute;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+}
+.categories-child9 {
+  text-decoration: none;
+  top: 385px;
+  left: 1167px;
+  width: 224px;
+  height: 218px;
+}
+.categories-child10 {
+  top: 623px;
+  left: 201px;
+  width: 1190px;
+  height: 360px;
+}
+.categories-child11,
+.categories-child12,
+.categories-child13,
+.categories-child14 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 423px;
+  left: 53px;
+  width: 72px;
+  height: 65px;
+  background-image: url(./public/rectangle15@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.categories-child12,
+.categories-child13,
+.categories-child14 {
+  top: 556px;
+  background-image: url(./public/rectangle16@3x.png);
+}
+.categories-child13,
+.categories-child14 {
+  top: 688px;
+  background-image: url(./public/rectangle17@3x.png);
+}
+.categories-child14 {
+  top: 815px;
+  background-image: url(./public/rectangle18@3x.png);
+}
+.categories-child15,
+.categories-child16,
+.categories-child17,
+.categories-child18 {
+  text-decoration: none;
+  position: absolute;
+  top: 696px;
+  left: 284px;
+  width: 230px;
+  height: 152px;
+  background-image: url(./public/rectangle-28@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.categories-child16,
+.categories-child17,
+.categories-child18 {
+  left: 550px;
+  background-image: url(./public/rectangle29@3x.png);
+}
+.categories-child17,
+.categories-child18 {
+  left: 816px;
+  background-image: url(./public/rectangle30@3x.png);
+}
+.categories-child18 {
+  left: 1082px;
+  background-image: url(./public/rectangle31@3x.png);
+}
+.categories-child19,
+.categories-child20,
+.categories-child21,
+.rectangle-icon {
+  position: absolute;
+  top: 197px;
+  left: 265px;
+  width: 95px;
+  height: 104px;
+  object-fit: cover;
+}
+.categories-child19,
+.categories-child20,
+.categories-child21 {
+  top: 435px;
+}
+.categories-child20,
+.categories-child21 {
+  top: 197px;
+  left: 508px;
+}
+.categories-child21 {
+  top: 435px;
+}
+.categories-child22,
+.categories-child23,
+.categories-child24 {
+  position: absolute;
+  top: 197px;
+  left: 750px;
+  width: 95px;
+  height: 104px;
+  object-fit: cover;
+}
+.categories-child23,
+.categories-child24 {
+  top: 435px;
+}
+.categories-child24 {
+  top: 197px;
+  left: 993px;
+}
+.categories-child25,
+.categories-child26,
+.categories-child27 {
+  position: absolute;
+  top: 442px;
+  left: 992px;
+  width: 95px;
+  height: 104px;
+  object-fit: cover;
+}
+.categories-child26,
+.categories-child27 {
+  top: 197px;
+  left: 1233px;
+}
+.categories-child27 {
+  top: 432px;
+  left: 1220px;
+  width: 121px;
+  height: 124px;
+}
+.diabetes,
+.stroke {
+  position: absolute;
+  top: 325px;
+  left: 265px;
+  font-weight: 700;
+}
+.stroke {
+  top: 560px;
+  left: 277px;
+}
+.india-reports-145,
+.news-articles {
+  position: absolute;
+  top: 654px;
+  left: 265px;
+  font-weight: 700;
+}
+.india-reports-145 {
+  top: 857px;
+  left: 284px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 230px;
+}
+.read-more {
+  color: var(--color-red);
+}
+.a-platform-based-internet-container,
+.zcovid-news-live-container {
+  position: absolute;
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  display: inline-block;
+  width: 230px;
+  color: var(--color-gray-300);
+}
+.zcovid-news-live-container {
+  top: 892px;
+  left: 284px;
+  cursor: pointer;
+}
+.a-platform-based-internet-container {
+  top: 915px;
+  left: 550px;
+}
+.expertstrusted-source1 {
+  text-decoration: underline;
+}
+.expertstrusted-source {
+  color: inherit;
+}
+.according-to-a-container,
+.parkinsons-disease-is-container {
+  position: absolute;
+  top: 902px;
+  left: 816px;
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  display: inline-block;
+  width: 230px;
+  color: var(--color-gray-300);
+}
+.according-to-a-container {
+  top: 905px;
+  left: 1082px;
+}
+.deep-meditation-might,
+.why-do-researchers,
+.zhongchao-inc-launches {
+  position: absolute;
+  top: 857px;
+  left: 550px;
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  display: inline-block;
+  width: 230px;
+}
+.deep-meditation-might,
+.why-do-researchers {
+  left: 816px;
+}
+.deep-meditation-might {
+  left: 1082px;
+}
+.cancer,
+.depression,
+.thyroid {
+  position: absolute;
+  top: 559px;
+  left: 517px;
+  font-weight: 700;
+}
+.depression,
+.thyroid {
+  top: 560px;
+  left: 737px;
+}
+.thyroid {
+  top: 564px;
+  left: 999px;
+}
+.alzheimers {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.diseases {
+  margin: 0;
+}
+.alzheimers-diseases {
+  position: absolute;
+  top: 553px;
+  left: 1220px;
+  font-weight: 700;
+  text-align: center;
+}
+.hypertension {
+  position: absolute;
+  top: 325px;
+  left: 483px;
+  font-weight: 700;
+}
+.coronary-heart-diseases-container {
+  position: absolute;
+  top: 314px;
+  left: 713px;
+  font-weight: 700;
+  text-align: center;
+}
+.chronic-kidney-diseases-container,
+.chronic-lung-diseases-container {
+  position: absolute;
+  top: 314px;
+  left: 969px;
+  font-weight: 700;
+  text-align: center;
+}
+.chronic-kidney-diseases-container {
+  top: 309px;
+  left: 1203px;
+}
+.categories1 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-league-spartan);
+}

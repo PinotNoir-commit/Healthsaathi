@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./chatbot.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anton:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=League Spartan:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="chatbot" id="Dashboard">
+      <div class="chatbot-child"><iframe id="ebot" width="1100" height="800" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/28c03307-4c3b-4e46-952b-27777b29159f"></iframe></div>
+      <button class="chatbot-item" id="rectangleButton"><img width="75rem" height="75rem" src="home-7-256.png"></button
+      ><button class="chatbot-inner"><img width="75rem" height="75rem" src="icons8-chatbot-58.png"></button
+      ><button class="chatbot-child1"><img width="75rem" height="75rem" src="settings-256.png"></button
+      ><button class="chatbot-child2"><img width="75rem" height="75rem" src="help-256.png"></button>
+    </div>
+
+    <script>
+      var rectangleButton = document.getElementById("rectangleButton");
+      if (rectangleButton) {
+        rectangleButton.addEventListener("click", function (e) {
+          window.location.href = "/index.html";
+        });
+      }
+      </script>
+  </body>
+</html>
